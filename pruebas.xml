@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<autos>
+    <auto>
+        <marca color="Azul" velocidad="180km/h">Hyundai</marca>
+        <modelo>Getz</modelo>
+        <version>HB20</version>
+        <precio>87990000</precio>
+        <año>2023</año>
+    </auto>
+    <auto>
+        <marca color="gris" velocidad="170km/h">Renault</marca>
+        <modelo>Sandero</modelo>
+        <version>Zen</version>
+        <precio>$ 74100000</precio>
+        <año>2023</año>
+    </auto>
+    <auto>
+        <marca color="negro" velocidad="160km/h">Kia</marca>
+        <modelo>Picanto</modelo>
+        <version>Zenith</version>
+        <precio>$ 71590000</precio>
+        <año>2024</año>
+    </auto>
+    <preferidos><![CDATA[Picanto & Sandero]]></preferidos>
+    <preferido>&quot;picanto&quot; &amp; &quot;Sandero&quot;</preferido>
+</autos>

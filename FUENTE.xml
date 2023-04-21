@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE planeta [
+<!ELEMENT planeta (nombre_planeta, continentes)>
+<!ELEMENT nombre_planeta (#PCDATA)>
+<!ELEMENT continentes (continente*)>
+<!ELEMENT continente (nombre, tamaño, num_habitantes, lengua_mayoritaria, partes)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre hemisferio (N|S) #REQUIRED>
+<!ATTLIST nombre mote ID #REQUIRED>
+<!ELEMENT tamaño EMPTY>
+<!ELEMENT num_habitantes ANY>
+<!ATTLIST num_habitantes fuente CDATA #FIXED "segura">
+<!ATTLIST num_habitantes cantidad CDATA "muchos">
+<!ELEMENT lengua_mayoritaria (#PCDATA)>
+<!ELEMENT partes ANY>
+<!ATTLIST partes tiene_islas CDATA #IMPLIED>
+]>
+<planeta>
+    <nombre_planeta>TIERRA</nombre_planeta>
+    <continentes>
+        <continente> 
+            <nombre hemisferio="S" mote="AFR">Africa</nombre>
+            <tamaño/>
+            <num_habitantes fuente="segura" cantidad ="pocos">500000</num_habitantes>
+            <lengua_mayoritaria>Francés</lengua_mayoritaria>
+            <partes tiene_islas="si">3</partes>
+        </continente>
+        <continente> 
+            <nombre hemisferio="N" mote="AMR">America</nombre>
+            <tamaño/>
+            <num_habitantes >12556000545</num_habitantes>
+            <lengua_mayoritaria>Español</lengua_mayoritaria>
+            <partes tiene_islas="si">15</partes>
+        </continente>
+    </continentes>
+</planeta>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE países [
+<!ELEMENT países (pais*)>
+<!ELEMENT pais (nombre*, continente, número_hab, gobierno)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT continente ANY>
+<!ELEMENT número_hab (#PCDATA)>
+<!ELEMENT gobierno EMPTY>
+]>
+
+<países>
+    <pais>
+        <nombre>Guinea Ecuatorial</nombre>
+        <nombre>Guinea Española</nombre>
+        <continente>Africa</continente>
+        <numero_hab>900000</numero_hab>
+        <gobierno/>
+    </pais>
+    <pais>
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <número_hab>40000000</número_hab>
+        <gobierno/>
+    </pais>
+</países>

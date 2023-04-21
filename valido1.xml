@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises SYSTEM "hhh.dtd">
+<paises>
+    <pais>
+        <nombre>Guinea Ecuatorial</nombre>
+        <nombre>Guinea Española</nombre>
+        <continente>Africa</continente>
+        <numero_hab>900000</numero_hab>
+        <gobierno/>
+    </pais>
+    <pais>
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <numero_hab>40000000</numero_hab>
+        <gobierno/>
+    </pais>
+</paises>
