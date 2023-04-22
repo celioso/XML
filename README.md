@@ -1,9 +1,10 @@
 # XML
-Practicas de HXL
+# PRACTICAS DE HXLPRACTICAS DE HXL
 
-https://www.freeformatter.com/xml-validator-xsd.html para validar el archivo.
-https://www.xmlvalidation.com/
-http://xmlvalidator.new-studio.org/
+- link para validar el archivo.
+- https://www.freeformatter.com/xml-validator-xsd.html .
+- https://www.xmlvalidation.com/
+- http://xmlvalidator.new-studio.org/
 
 #documentación
-https://www.abrirllave.com/xsd/restricciones.php
+https://www.abrirllave.com/xsd/restricciones.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos_esp xsi:noNamespaceSchemaLocation="ejemplo3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <equipo país="España">
+        un gran equipo, aunque en las últimas temporadas van un poco mal.
+        <nombre sigla="FCB">Fútbol club barcelona</nombre>
+        <valoración>7.8</valoración>
+        <champion>true</champion>
+        <deporte>Fútbol</deporte>
+        <deporte>Baloncesto</deporte>
+        <deporte>Fútbol sala</deporte>
+    </equipo>
+    <equipo país="España">
+        un gran equipo.
+        <nombre sigla="FCB">Real Madrid CF</nombre>
+        <valoración>10.0</valoración>
+        <champion>true</champion>
+        <deporte>Fútbol</deporte>
+        <deporte>Baloncesto</deporte>
+    </equipo>
+    <observación>Son equipos de deporte de españa</observación>
+    <división>1</división>
+</equipos_esp>

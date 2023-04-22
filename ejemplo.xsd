@@ -3,15 +3,9 @@
     <xs:element name="marcadores">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="nada" maxOccurs="2">
-                        <xs:complexType>
-                            <xs:sequence>
-                                <xs:element name="marcador" type="xs:string"/>
-                                <xs:element name="veces" type="xs:integer"/>
-                                <xs:element name="tiempo_seg" maxOccurs="3" type="xs:double"/>
-                            </xs:sequence>
-                        </xs:complexType>            
-                </xs:element>
+                <xs:element name="marcador" maxOccurs="1" type="xs:string"/>
+                <xs:element name="veces" minOccurs="0" type="xs:integer"/>
+                <xs:element name="tiempo_seg" minOccurs="0" maxOccurs="4" type="xs:double"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
